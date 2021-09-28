@@ -2,9 +2,9 @@ tool:
   terraform:
     installations:
       - name: "terraform"
-        home: "/terraform-0.11"
+        home: "/usr/bin/"
         properties:
           - installSource:
               installers:
                 - terraformInstaller:
-                    id: "0.11.9-linux-amd64"
+                    id: "1.0.4-linux-amd64"
