@@ -1,0 +1,14 @@
+unclassified: 
+  globalLibraries:
+    libraries:
+    - defaultVersion: "main"
+      name: "slack-notify"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "AzureRepo"
+              id: "bb127782-9f34-4830-97ad-7973add0998c"
+              remote: "https://DevToppers@dev.azure.com/DevToppers/Cloud%20Automation/_git/Jenkins%20Library"
+              traits:
+              - "gitBranchDiscovery"
